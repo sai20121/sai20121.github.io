@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Management</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            display: flex;
+            margin: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #ddd;
+            padding: 20px;
+        }
+
+        main {
+            flex: 3;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        input[type="text"], input[type="submit"] {
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Car Rental Management</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">Reservations</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <aside>
+            <h2>Sidebar</h2>
+            <p>Some information about the car rental company...</p>
+        </aside>
+
+        <main>
+            <h2>Welcome to our Car Rental Service</h2>
+            <p>Description of your car rental service.</p>
+
+            <h3>Available Cars</h3>
+            <table>
+                <tr>
+                    <th>Car Model</th>
+                    <th>Year</th>
+                    <th>Price per Day</th>
+                </tr>
+                <tr>
+                    <td>Car A</td>
+                    <td>2022</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Car B</td>
+                    <td>2021</td>
+                    <td>$40</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+
+            <h3>Search for Cars</h3>
+            <form>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="search">
+                <input type="submit" value="Search">
+            </form>
+
+            <h3>Car Image</h3>
+            <img src="car-image.jpg" alt="Car Image">
+
+            <h3>Car Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </main>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Rental Management. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
